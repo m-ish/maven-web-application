@@ -6,7 +6,7 @@
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	
-	<version>0.0.2-SNAPSHOT</version> 
+	<version>1.0.0.-SNAPSHOT</version> 
 	
 	<name>maven-web-application</name>
 
@@ -24,7 +24,7 @@
                 <log4j.version>1.2.17</log4j.version>
                 <sonar.host.url>http://10.0.5.201:9000/</sonar.host.url>
                 <sonar.login>admin</sonar.login>
-                <sonar.password>admin123</sonar.password>
+                <sonar.password>mishadmin</sonar.password>
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
                 <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         </properties>
@@ -96,13 +96,13 @@
       <repository>
         <id>nexus</id>
         <name>Landmark Technologies Releases Nexus Repository</name>
-        <url>http://98.81.159.237:8081/repository/tesla-releases/</url>
+        <url>http://3.90.207.72:8081/repository/tesla-releases/</url>
       </repository>
       
       <snapshotRepository>
         <id>nexus</id>
         <name>Landmark Technologies Snapshot Nexus Repository </name>
-        <url>http://98.81.159.237:8081/repository/tesla-snapshots/</url>
+        <url>http://3.90.207.72:8081/repository/tesla-snapshot/</url>
       </snapshotRepository>
       
   </distributionManagement>
